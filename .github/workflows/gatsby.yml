@@ -13,10 +13,10 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v2  # This step clones your repository
 
-    - name: Change Directory
-      run: |
-        cd shreyassks.github.io
-      working-directory: shreyassks.github.io
+    # - name: Change Directory
+    #   run: |
+    #     cd shreyassks.github.io
+    #   working-directory: shreyassks.github.io
 
     - name: Set Up Node.js
       uses: actions/setup-node@v2
