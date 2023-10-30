@@ -13,11 +13,6 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v2  # This step clones your repository
 
-    # - name: Change Directory
-    #   run: |
-    #     cd shreyassks.github.io
-    #   working-directory: shreyassks.github.io
-
     - name: Set Up Node.js
       uses: actions/setup-node@v2
       with:
@@ -33,17 +28,7 @@ jobs:
       run: npm install -g gatsby-cli
 
     - name: Install Project Dependencies
-      run: npm install
-
-    - name: Commit Changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Changes"
-      env:
-        GIT_AUTHOR_NAME: GitHub Action
-        GIT_AUTHOR_EMAIL: action@github.com
+      run: nvm install
 
     - name: Build Gatsby Project
       run: gatsby build
