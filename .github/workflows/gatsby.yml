@@ -27,11 +27,8 @@ jobs:
     - name: Install Gatsby CLI
       run: npm install -g gatsby-cli
 
-    - name: Install Project Dependencies
-      run: nvm install
-
     - name: Build Gatsby Project
-      run: gatsby build
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       run: npm run deploy
