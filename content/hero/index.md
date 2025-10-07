@@ -16,7 +16,7 @@ buttonText: 'Hire Me'
 🎓 **Master’s Degree from IIT Guwahati (Jun 2019)**  
 [Degree PDF](https://drive.google.com/file/d/1FlJmLaE1uxN-HUxFS_vxeaDHDtWzzLoS/view?usp=sharing)
 
-🚀 *Currently open to Senior/Lead roles in GenAI/Agentic AI*  
+🚀 **Currently open to Senior/Lead roles in GenAI/Agentic AI**
 **Let’s build impactful AI products together!**
 
 Obsessed with crafting AI systems that deliver measurable business impact, not just demos!
