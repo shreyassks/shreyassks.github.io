@@ -10,7 +10,7 @@ module.exports = {
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Shreyas S K',
   location: 'Basavanagudi, Bangalore',
-  email: 'skshreyas714@gmail.com',
+  email: 'skshreyas@zohomail.in',
   github: 'https://github.com/shreyassks',
   socialMedia: [
     {
@@ -26,7 +26,6 @@ module.exports = {
       url: 'https://www.instagram.com/ecstatic.human',
     },
   ],
-
   navLinks: [
     {
       name: 'About',
@@ -45,15 +44,12 @@ module.exports = {
       url: '/#contact',
     },
   ],
-
   navHeight: 100,
-
   colors: {
     green: '#D76E00',
     navy: '#f2ead3',
     darkNavy: '#ece1bf',
   },
-
   srConfig: (delay = 200) => ({
     origin: 'bottom',
     distance: '20px',
